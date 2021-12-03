@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Jaron',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -23,14 +23,14 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: '4aeeeb887c34d6a85375058dca3e64aa',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
+  weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '33.647036',
+  defaultLongitude: '-112.051005',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -48,19 +48,19 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'Airtable',
+      icon: 'database',
+      link: 'https://airtable.com',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Amazon',
+      icon: 'shopping-cart',
+      link: 'https://amazon.com',
     },
     {
       id: '5',
@@ -70,9 +70,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'YouTube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com/',
     },
   ],
 
@@ -81,45 +81,53 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
+  firstListIcon: 'film',
   secondListIcon: 'coffee',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Plex',
+        link: 'https://app.plex.tv/desktop',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Tautulli',
+        link: 'https://leapy-tautulli.cp10.cloudboxes.io/',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Overseer',
+        link: 'https://leapy-overseerr.cp10.cloudboxes.io/',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Radarr',
+        link: 'https://leapy-radarr.cp10.cloudboxes.io/',
+      },
+      {
+        name: 'Sonarr',
+        link: 'https://leapy-sonarr.cp10.cloudboxes.io/',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Cloudboxes.io',
+        link: 'https://cloudboxes.io/dashboard',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'qBittorrent',
+        link: 'http://leapy-qbittorrent.cp10.cloudboxes.io/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'BTN',
+        link: 'https://broadcasthe.net/',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'PTP',
+        link: 'https://passthepopcorn.me/',
+      },
+      {
+        name: 'AB',
+        link: 'https://animebytes.tv/',
       },
     ],
   },
