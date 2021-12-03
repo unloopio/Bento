@@ -82,7 +82,7 @@ const CONFIG = {
 
   //Icons
   firstListIcon: 'film',
-  secondListIcon: 'coffee',
+  secondListIcon: 'download',
 
   // Links
   lists: {
